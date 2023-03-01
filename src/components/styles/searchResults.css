@@ -1,0 +1,12 @@
+.user-img {
+  width: 3em;
+  height: 3em;
+}
+
+.notes-img {
+  height: 3em;
+}
+
+.border-green {
+  border: solid 2px #19dd82;
+}

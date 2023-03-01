@@ -1,0 +1,14 @@
+.small-avatar {
+  height: 3.5em;
+  width: 3.5em;
+  border-radius: 50%;
+}
+
+.scrollable {
+  max-height: 15em;
+  overflow: auto;
+}
+
+.scrollable::-webkit-scrollbar {
+  display: none;
+}

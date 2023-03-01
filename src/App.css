@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+.book-btn {
+  background-color: #ffffff !important;
+  border: #f06449 1px solid !important;
+  color: #f06449 !important;
+}
+
+.book-btn:hover {
+  background-color: #f06449 !important;
+  border: #f06449 1px solid !important;
+  color: #ffffff !important;
+}
+
+.orange {
+  color: #f06449;
+}
+
+.pink-bg {
+  background-color: #ff4f79;
+}
+
+.purple {
+  color: #cb429f;
+}
+
+.purple-bg {
+  background-color: #cb429f;
+}
+
+.green {
+  color: #069954;
+}
+
+.green-bg {
+  background-color: #069954;
+}
+
+.light-green-bg {
+  background-color: #26cf80;
+}
+
+.grey-bg {
+  background-color: #fafafa !important;
+}
+
+.grey {
+  color: #7a7a7a;
+}
+
+.thicker {
+  font-weight: 600;
+}
+
+.small-txt {
+  font-size: 11px;
+}
+
+.medsm-txt {
+  font-size: 13px;
+}
+
+.medbig-txt {
+  font-size: 14px;
+}
+
+.med-txt {
+  font-size: 15px;
+}
+
+.lg-txt {
+  font-size: 16px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pointer:hover {
+  text-decoration: underline;
+}
+
+.border-round {
+  border-radius: 50%;
+}
+
+.green-btn {
+  background-color: #069954 !important;
+  border: #069954 !important;
+}
+
+.logosize {
+  width: 8em;
+}
+
+.owlsize {
+  width: 5em;
+}
+
+.transition {
+  transition-duration: 0.3s;
+}
+
+.default-cur {
+  cursor: default;
+  user-select: none;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}

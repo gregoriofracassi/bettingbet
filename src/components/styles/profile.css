@@ -1,0 +1,113 @@
+.profile-img {
+  height: 7em;
+  width: 7em;
+}
+
+.calendar {
+  display: flex;
+  max-height: 70vh;
+  overflow: auto;
+}
+
+.calendar::-webkit-scrollbar {
+  display: none;
+}
+
+.spread {
+  flex-grow: 1;
+  border-right: 1px solid rgb(236, 236, 236);
+}
+
+.calendar-cell {
+  height: 20px;
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+.calendar-cell-1 {
+  height: 20px;
+  border-top: 1px solid rgb(211, 211, 211);
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+.calendar-cell-dark {
+  height: 20px;
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.bord-top {
+  border-top: 1px solid rgb(236, 236, 236);
+}
+
+.bord-left {
+  border-left: 1px solid rgb(236, 236, 236);
+}
+
+.eighth {
+  width: 12.5%;
+}
+
+.eighths {
+  width: 87.5%;
+}
+
+.vertical-space {
+  height: 20px;
+}
+
+.grow-7 {
+  flex-grow: 7;
+  border-top: 1px solid rgb(236, 236, 236);
+}
+
+.shadow-b {
+  box-shadow: 0px 5px 10px -10px rgba(141, 141, 141, 0.92);
+}
+
+.pdf-logo {
+  max-width: 3em;
+}
+
+.tab-title a {
+  color: #5a5a5a !important;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.title {
+  color: #cb429f;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.btn-width {
+  width: 18em;
+}
+
+.column-highlight:hover {
+  background-color: rgb(250, 250, 250);
+  transition-duration: 0.4s;
+}
+
+.img-size {
+  width: 100%;
+  height: 15em;
+  background-size: cover;
+}
+
+.av-green {
+  background-color: #83ecb3;
+  transition-duration: 0.3s;
+}
+
+.av-grey {
+  background-color: #ff8870;
+  transition-duration: 0.3s;
+}
+
+.av-highlight {
+  background-color: #6dffaa;
+  transition-duration: 0.3s;
+}
+
+.comment-img {
+  height: 2em;
+  width: 2em;
+}

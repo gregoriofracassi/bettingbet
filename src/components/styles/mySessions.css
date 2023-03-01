@@ -1,0 +1,46 @@
+.video-container {
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+.video {
+  max-width: 100%;
+  height: 100%;
+}
+
+.userVideo {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  background-color: white;
+  height: 8em;
+}
+
+.video-menu {
+  height: 16em;
+  opacity: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 8%,
+    rgba(172, 172, 172, 0) 27%,
+    rgba(255, 255, 255, 0) 88%
+  );
+  position: absolute;
+  bottom: 0;
+  font-size: 25px;
+  color: white;
+  width: 100%;
+  transition-duration: 0.2s;
+  border: none !important;
+}
+
+.video-menu:hover {
+  opacity: 1;
+}
+
+.phone-icon {
+  font-size: 40px;
+  color: red;
+}

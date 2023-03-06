@@ -35,9 +35,9 @@ const Header = (props) => {
       <Navbar className="navbar d-flex justify-content-between px-3 mb-3">
         <div>
           <img
-            src="https://res.cloudinary.com/difofe2r8/image/upload/v1634118034/UniHub/logouni_m6yut2.png"
+            src="https://res.cloudinary.com/dikhui7af/image/upload/v1678118692/frsgdtgk_eoa3o8.png"
             alt=""
-            className="logo py-2 pointer"
+            // className="logo py-2 pointer"
             onClick={() => props.history.push(`/profile/${loggedUser._id}`)}
           />
         </div>

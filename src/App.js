@@ -1,6 +1,6 @@
 // import React, { useEffect } from "react"
 import "./App.css"
-import Header from "./components/Header"
+import Header from "./components/header/Header"
 // import Profile from "./components/Profile"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { BrowserRouter as Router, Route } from "react-router-dom"

@@ -1,0 +1,37 @@
+.logo {
+  width: 10em;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.nav-txt {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(61, 59, 48);
+}
+
+.nav-txt2 {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  color: #23ce6b
+}
+
+.search-field {
+  font-size: 14px !important;
+  background-color: rgb(222, 241, 225) !important;
+  border: none !important;
+  border-radius: 18px !important;
+}
+
+.sm-avatar {
+  height: 2em;
+  width: 2em;
+}

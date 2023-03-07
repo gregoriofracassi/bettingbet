@@ -1,0 +1,28 @@
+.sidebar {
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+    padding: 1em;
+    font-family: Poppins;
+    font-weight: 500;
+    height: 80vh;
+}
+
+.font-sm {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.icon-font {
+    font-size: 1.3em;
+}
+
+.selected {
+    background-color: #4064f1;
+}
+
+.round-rectangle {
+    border-radius: 0.6em;
+    /* padding: 1em; */
+}

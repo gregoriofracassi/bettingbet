@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom"
 // import { useCookies } from "react-cookie"
 // import { setLoggedUser } from "./actions"
 import Footer from "./components/Footer"
-import Tester from "./components/Tester"
+import Arbitrage from "./components/arbitrage/Arbitrage"
 
 const App = () => {
   // const [cookies] = useCookies(["accessToken"])
@@ -35,7 +35,7 @@ const App = () => {
     <>
       <Router>
         <Header />
-        <Route component={Tester} path="/" exact />
+        <Route component={Arbitrage} path="/" exact />
         {/* <Route component={Profile} path="/profile/:id" />
         <Route component={Console} path="/console" />
         <Route component={MySessions} path="/mySessions/:id" />

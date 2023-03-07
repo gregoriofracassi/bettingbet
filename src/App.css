@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 .App {
   text-align: center;
@@ -42,10 +40,38 @@
 }
 
 body {
-  font-family: "Nunito Sans", sans-serif !important;
+  font-family: "Inter", sans-serif;
 }
 
-/* .book-btn {
+
+.pointer {
+  cursor: pointer;
+}
+
+.pointer:hover {
+  text-decoration: none;
+}
+
+.green-bg {
+  background-color: #23ce6b;
+}
+
+.main-container {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.dark-green-bg {
+  background-color: #2f52e0;
+}
+
+.light-font {
+  font-weight: 200;
+}
+
+/* -------------------------------- */
+
+.book-btn {
   background-color: #ffffff !important;
   border: #f06449 1px solid !important;
   color: #f06449 !important;
@@ -77,9 +103,7 @@ body {
   color: #069954;
 }
 
-.green-bg {
-  background-color: #069954;
-}
+
 
 .light-green-bg {
   background-color: #26cf80;
@@ -117,13 +141,7 @@ body {
   font-size: 16px;
 }
 
-.pointer {
-  cursor: pointer;
-}
 
-.pointer:hover {
-  text-decoration: none;
-}
 
 .border-round {
   border-radius: 50%;
@@ -153,4 +171,4 @@ body {
 
 .not-allowed {
   cursor: not-allowed;
-} */
+}

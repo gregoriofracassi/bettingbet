@@ -61,7 +61,7 @@ body {
   padding-right: 4em;
 }
 
-.dark-green-bg {
+.mid-blue-bg {
   background-color: #2f52e0;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .dark-white-bg {
-  background-color: #f6f8ff !important;
+  background-color: #f8f8ff !important;
 }
 
 /* -------------------------------- */
@@ -104,7 +104,7 @@ body {
 }
 
 .green {
-  color: #069954;
+  color: #23ce6b
 }
 
 

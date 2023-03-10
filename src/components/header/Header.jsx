@@ -32,7 +32,7 @@ const Header = (props) => {
 
 	return (
 		<>
-			<Navbar className="navbar d-flex justify-content-between px-5 mb-3">
+			<Navbar className="navbar d-flex justify-content-between px-5 mb-3 pb-4 pt-3">
 				<Col md={2}>
 					<img
 						src="https://res.cloudinary.com/dikhui7af/image/upload/v1678118692/frsgdtgk_eoa3o8.png"

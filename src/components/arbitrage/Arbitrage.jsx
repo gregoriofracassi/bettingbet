@@ -5,6 +5,7 @@ import './arbitrage.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBasketballBall } from '@fortawesome/free-solid-svg-icons'
 import { getFootballArbs } from '../../services/arbs/football'
+import Dropdown from '../dropdown/Dropdown'
 
 const Arbitrage = (props) => {
 	const [pageContent, setPageContent] = useState('opportunities')
@@ -35,7 +36,7 @@ const Arbitrage = (props) => {
 		scrollToList()
 	}
 
-	const scrollToList = () => window.scroll({ top: 75, left: 0, behavior: 'smooth' })
+	const scrollToList = () => window.scroll({ top: 115, left: 0, behavior: 'smooth' })
 
 	const getArbs = async (page) => {
 		try {
@@ -130,20 +131,7 @@ const Arbitrage = (props) => {
 					) : (
 						<>
 							{/* ---------------- FILTERS ----------------  */}
-							<Card className="filters">
-								<Card.Body className="dark-white-bg">
-									<form>
-										<select value={sportFilter} onChange={(e) => setSportFilter(e.target.value)}>
-											<option value="">Please choose an option</option>
-											<option value="option1">Option 1</option>
-											<option value="option2">Option 2</option>
-											<option value="option3">Option 3</option>
-											<option value="option4">Option 4</option>
-											<option value="option5">Option 5</option>
-										</select>
-									</form>
-								</Card.Body>
-							</Card>
+							<Dropdown />
 							{/* ---------------- FILTERS END---------------- */}
 
 							{/* ---------------- GRID ---------------- */}

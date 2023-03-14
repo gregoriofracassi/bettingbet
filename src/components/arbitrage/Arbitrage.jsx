@@ -131,7 +131,11 @@ const Arbitrage = (props) => {
 					) : (
 						<>
 							{/* ---------------- FILTERS ----------------  */}
-							<Dropdown />
+							<Card className="filters">
+								<Card.Body className="dark-white-bg">
+									<Dropdown />
+								</Card.Body>
+							</Card>
 							{/* ---------------- FILTERS END---------------- */}
 
 							{/* ---------------- GRID ---------------- */}

@@ -45,6 +45,15 @@
 	/* padding: 1em; */
 }
 
+/* ------------------ FILTERS -------------- */
+.filters {
+	border: 1px solid #f8f8ff !important;
+	border-radius: 1em;
+	background-clip: padding-box;
+	overflow: hidden;
+	margin-bottom: 2em;
+}
+
 /* ------------ LIST CSS ------------ */
 
 .list-group-item {
